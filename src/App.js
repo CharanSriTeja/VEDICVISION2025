@@ -3,16 +3,16 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { AuthProvider } from './contexts/AuthContext';
-import LandingPage from './components/LandingPage';
-import AuthPage from './components/AuthPage';
-import Dashboard from './components/Dashboard';
-import HospitalSearch from './components/HospitalSearch';
-import Appointments from './components/Appointments';
-import HealthRecords from './components/HealthRecords';
-import Prescriptions from './components/Prescriptions';
-import LabReports from './components/LabReports';
-import Profile from './components/Profile';
+import LandingPage from './components/LandingPageComp/LandingPage';
+import AuthPage from './components/AuthPageComp/AuthPage';
+import Dashboard from './components/DashboardComp/Dashboard';
+import HospitalSearch from './components/HospitalSearchComp/HospitalSearch';
+import HealthRecords from './components/HealthRecordsComp/HealthRecords';
+import Prescriptions from './components/PrescriptionsComp/Prescriptions';
+import LabReports from './components/LabReportsComp/LabReports';
+import Profile from './components/ProfileComp/Profile';
 import './App.css';
+import Appointments from './components/AppointmentComp/Appointments';
 
 function App() {
   return (
